@@ -11,7 +11,7 @@
     "react-google-maps": "^9.4.5",
     "react-router-dom": "^6.16.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
   },
   "scripts": {
     "start": "react-scripts start",
@@ -25,6 +25,9 @@
       "react-app/jest"
     ]
   },
+  "devDependencies": {
+  "@babel/plugin-proposal-private-property-in-object": "^1.0.0"
+},
   "browserslist": {
     "production": [
       ">0.2%",
